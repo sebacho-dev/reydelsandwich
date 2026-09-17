@@ -1,0 +1,181 @@
+body {
+    background: linear-gradient(to bottom, #f5f5dc, #a8d5ba);
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+h1{
+    color: rgb(55, 99, 72);
+    font-size: 60px;
+    text-align:center;
+    margin-bottom: 0;
+}
+
+.inicio{
+    background: whitesmoke;
+    width:600px;
+    margin:50px auto;
+    padding:50px;
+    border:2px solid rgba(66, 25, 25, 0.566);
+    text-align:center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.inicio img{
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.inicio p{
+    color:#333333;
+    font-size:18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.inicio h2{
+    color: rgb(55, 99, 72);
+    font-size: 32px;
+    text-align:center;
+}
+
+.inicio button{
+    background-color: rgb(55, 99, 72);
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.inicio button:hover{
+    background-color: rgb(40, 75, 54);
+}
+
+
+
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+
+.producto{
+    background-color:whitesmoke;
+    width:300px;
+    margin:15px;
+    padding:25px;
+    border: none;
+    text-align:center;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.producto img{
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.producto h3{
+    color: #376348;
+    font-size:26px;
+    margin: 15px 0 5px;
+}
+
+.producto p{
+    color:#666;
+    font-size:15px;
+    min-height: 40px;
+}
+
+.producto .precio{
+    color: #437441;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button{
+    background-color:rgb(55, 99, 72);
+    color:white;
+    padding:12px 30px;
+    border:none;
+    font-size:16px;
+    border-radius:25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#6a3ef7;
+    color:white;
+    box-shadow: 0 4px 15px rgba(106, 62, 247, 0.4);
+}
+
+
+
+.nosotros{
+    background-color:whitesmoke;
+    width:600px;
+    margin:50px auto;
+    padding:50px;
+    border:2px solid rgba(66, 25, 25, 0.566);
+    text-align:center;
+    border-radius: 15px;
+}
+
+.nosotros img{
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.nosotros p{
+    color:#333333;
+    font-size:18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.nosotros h2{
+    color: rgb(55, 99, 72);
+    font-size: 35px;
+    text-align:center;
+}
+
+
+
+.contacto{
+    background-color:whitesmoke;
+    width:500px;
+    margin:50px auto;
+    padding:40px;
+    border-radius: 15px;
+    text-align:center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contacto h2{
+    color: rgb(55, 99, 72);
+    font-size: 35px;
+}
+
+.contacto input, .contacto textarea{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+    border:2px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    font-family: Arial;
+}
+
+.contacto textarea{
+    height:100px;
+}
